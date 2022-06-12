@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "James Webb Space Telescope Dashboard",
+	"description": "A browse extension that features an information dashboard of the James Webb Space Telescope. Includes pictures, status updates, health, and more!",
+	"version": "1.0.0",
+	"icons": {
+		"256": "icons/extLogo.png"
+	},
+	"permissions": [
+		
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "jwstDashboard@jwstDashboard.jwst"
+		}
+	},
+	"browser_action": {
+		"default_icon": "icons/extLogo.png",
+		"default_title": "JWST Dashboard",
+		"default_popup": "popup/view.html"
+	}
+}
